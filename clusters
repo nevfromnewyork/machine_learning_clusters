@@ -1,0 +1,31 @@
+# Import the modules
+from sklearn.datasets import make_blobs
+import matplotlib.pyplot as plt
+# Generate synthetic clusters
+X, y = make_blobs(
+    centers=3, 
+    random_state=1
+)
+# Visualizing both classes
+plt.scatter(X[:, 0], X[:, 1], c=y)
+# Generate synthetic clusters
+X, y = make_blobs(
+    centers=5, 
+    random_state=1
+)
+# Visualizing both classes
+plt.scatter(X[:, 0], X[:, 1], c=y)
+# Generate synthetic clusters
+X, y = make_blobs(
+    centers=5, 
+    random_state=1
+)
+# Visualizing both classes
+plt.scatter(X[:, 0], X[:, 1], c=y)
+# Generate synthetic clusters
+X, y = make_blobs(
+    centers=3, 
+    random_state=1
+)
+# Visualizing both classes
+plt.scatter(X[:, 0], X[:, 1], c=y)
